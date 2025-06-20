@@ -22,9 +22,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
-        style={{backgroundImage:'url("/images/vector.png")', fontFamily: 'Marcellus, serif'}}
+        style={{ backgroundImage: 'url("/images/vector.png")', fontFamily: 'Marcellus, serif' }}
       >
-        <Navbar />
+        <div className="fixed z-10 w-full">
+          <Navbar />
+        </div>
         {children}
       </body>
     </html>
