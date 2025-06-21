@@ -2,9 +2,13 @@
 
 import Lottie from 'lottie-react';
 
-export default function PricingLottie({ animationData }) {
+export default function PricingLottie({ animationData,width,height }) {
   return (
-    <div className="w-[680px] h-[680px]">
+    <div style={{
+      height:`${height}`,
+      width:`${width}`,
+      transition:'1s ease'
+    }}>
       <Lottie
         animationData={animationData}
         loop
