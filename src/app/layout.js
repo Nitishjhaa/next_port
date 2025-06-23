@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#ccc]`}
         style={{ backgroundImage: 'url("/images/vector.png")', fontFamily: 'Marcellus, serif' }}
       >
         <div className="fixed z-10 w-full">
