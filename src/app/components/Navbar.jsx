@@ -31,8 +31,8 @@ export default function Navbar() {
                                 className='ml-2 rounded-full'
                             />
                         </span>
-                        <span className='uppercase text-[14px]'>
-                            Creative technologist shaping modern brands through code & motion.
+                        <span className=''>
+                            Full-stack web artisan turning ideas into digital products.
                         </span>
                     </div>
                     <div className='flex gap-5 h-full items-center max-md:hidden'>
@@ -55,29 +55,31 @@ export default function Navbar() {
                         <div className='ml-10 flex gap-10'>
                             {Social.map((e) => {
                                 const isActive = selectedTab === e.id;
-
                                 return (
                                     <motion.div
                                         key={e.id}
                                         onClick={() => setSelectedTab(e.id)}
-                                        className={`relative overflow-hidden cursor-pointer text-3xl flex gap-3 border p-3 w-80 rounded-xl z-0 transition-colors duration-300 ${isActive ? 'text-white' : 'text-black'
-                                            }`}
+                                        whileHover="hover"
+                                        initial="rest"
+                                        animate={isActive ? "hover" : "rest"}
+                                        variants={{
+                                            rest: { color: "#000" },
+                                            hover: { color: "#fff" }
+                                        }}
+                                        className="relative overflow-hidden cursor-pointer text-3xl flex gap-3 border p-3 w-80 rounded-xl z-0 transition-colors duration-300 shadow-md"
                                     >
-                                        {isActive && (
-                                            <motion.div
-                                                layoutId="bg"
-                                                initial={{ y: "-100%" }}
-                                                animate={{ y: 0 }}
-                                                exit={{ y: "-100%" }}
-                                                transition={{ duration: 0.3, ease: "easeOut" }}
-                                                className="absolute inset-0 bg-black z-[-1] rounded-xl"
-                                            />
-                                        )}
+                                        <motion.div
+                                            variants={{
+                                                rest: { y: "-100%" },
+                                                hover: { y: "0%" }
+                                            }}
+                                            transition={{ duration: 0.3, ease: "easeInOut" }}
+                                            className="absolute inset-0 bg-black z-[-1] rounded-xl"
+                                        />
                                         {e.icon} {e.name}
                                     </motion.div>
                                 );
                             })}
-
                         </div>
                         <button
                             onClick={() => setIsClicked(false)}
