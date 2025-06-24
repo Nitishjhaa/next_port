@@ -1,15 +1,30 @@
 'use client'
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import { TfiClose } from "react-icons/tfi";
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { motion, AnimatePresence } from 'framer-motion';
+import { MdOutlineMusicNote } from "react-icons/md";
+import { MdOutlineMusicOff } from "react-icons/md";
 
 export default function Navbar() {
     const [isClicked, setIsClicked] = useState(false);
     const [selectedTab, setSelectedTab] = useState(null);
+    const [isMusicPlaying, setIsMusicPlaying] = useState(false)
+
+    const audioRef = useRef(null)
+
+    useEffect(() => {
+        if (!audioRef.current) return
+
+        if (isMusicPlaying) {
+            audioRef.current.play()
+        } else {
+            audioRef.current.pause()
+        }
+    }, [isMusicPlaying])
 
     const Social = [
         { id: 1, name: "Github", icon: <FaGithub /> },
@@ -39,7 +54,7 @@ export default function Navbar() {
                             <motion.span
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1, }}
-                                transition={{ duration: 0.4, delay:0.3, ease: 'easeInOut' }}
+                                transition={{ duration: 0.4, delay: 0.3, ease: 'easeInOut' }}
                                 className='max-md:text-[12px]'
                             >
                                 Full-stack web artisan turning ideas into digital products.
@@ -102,7 +117,16 @@ export default function Navbar() {
                         </motion.div>
                     )}
                 </AnimatePresence>
+                <audio ref={audioRef} src="/music/alone.mp3" loop />
+                <button
+                    className='absolute left-[93%] top-11 bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer active:scale-90'
+                    onClick={() => setIsMusicPlaying(prev => !prev)}
+                >
+                    {isMusicPlaying ? <MdOutlineMusicNote size={25} /> : <MdOutlineMusicOff size={25} />}
+                </button>
             </motion.div>
+
+
         </>
     );
 }
