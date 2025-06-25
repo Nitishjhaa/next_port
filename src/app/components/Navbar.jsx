@@ -39,7 +39,7 @@ export default function Navbar() {
                 animate={{ opacity: 1, width: '100%' }}
                 transition={{ duration: 0.4, ease: 'easeInOut' }}
             >
-                <div className='h-11 w-[80%] max-md:w-[90%] relative mx-auto mt-10 rounded-full backdrop-blur-xs flex items-center bg-white'>
+                <div className='h-11 w-[80%] max-md:w-[80%] max-md:ml-5 relative mx-auto mt-10 rounded-full backdrop-blur-xs flex items-center bg-white'>
                     <div className='flex w-full h-full justify-between'>
                         <div className='flex gap-8 max-md:gap-6 h-full items-center'>
                             <span>
@@ -119,14 +119,12 @@ export default function Navbar() {
                 </AnimatePresence>
                 <audio ref={audioRef} src="/music/alone.mp3" loop />
                 <button
-                    className='absolute left-[93%] top-11 bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer active:scale-90'
+                    className='absolute left-[93%] top-11 bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer active:scale-90 max-md:-ml-5'
                     onClick={() => setIsMusicPlaying(prev => !prev)}
                 >
                     {isMusicPlaying ? <MdOutlineMusicNote size={25} /> : <MdOutlineMusicOff size={25} />}
                 </button>
             </motion.div>
-
-
         </>
     );
 }
