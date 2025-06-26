@@ -6,21 +6,6 @@ import { FiDownloadCloud } from "react-icons/fi";
 
 const HomeSection = () => {
 
-    const [count, setCount] = useState(0);
-    const maxCount = 10;
-
-
-    useEffect(() => {
-        if (count >= maxCount) return;
-
-        const timer = setTimeout(() => {
-            setCount(prev => prev + 1);
-        }, 2000);
-
-        return () => clearTimeout(timer);
-    }, [count]); 
-
-
     return (
         <div className='mx-auto w-[80%] h-[84vh] overflow-hidden'>
             <div className='flex max-md:flex-col-reverse'>
@@ -71,7 +56,7 @@ const HomeSection = () => {
                                 className="flex justify-center items-center gap-2 text-lg z-10 relative"
                             >
                                 <FiDownloadCloud />
-                                Download CV
+                                𝔻ownload CV
                             </motion.div>
                         </motion.button>
                     </div>
