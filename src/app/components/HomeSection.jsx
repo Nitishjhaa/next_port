@@ -7,7 +7,7 @@ import { FiDownloadCloud } from "react-icons/fi";
 const HomeSection = () => {
 
     return (
-        <div className='mx-auto w-[80%] h-[84vh] overflow-hidden'>
+        <div className='mx-auto w-[80%] h-[84vh]'>
             <div className='flex max-md:flex-col-reverse'>
                 <motion.div
                     initial={{ opacity: 0, x: -120 }}
@@ -67,7 +67,7 @@ const HomeSection = () => {
                     exit={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.6, duration: 0.3 }}
                 >
-                    <div className='max-md:mt-2'>
+                    <div className='mt-10 max-md:mt-2'>
                         <Image
                             src='/images/placeholder.avif'
                             width='890'
