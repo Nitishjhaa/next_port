@@ -38,6 +38,7 @@ export default function Navbar() {
                 initial={{ opacity: 0, width: 0 }}
                 animate={{ opacity: 1, width: '100%' }}
                 transition={{ duration: 0.4, ease: 'easeInOut' }}
+                className='pt-10'
             >
                 <div className='h-11 w-[80%] max-md:w-[80%] max-md:ml-5 relative mx-auto mt-10 rounded-full backdrop-blur-xs flex items-center bg-white'>
                     <div className='flex w-full h-full justify-between'>

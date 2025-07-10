@@ -12,7 +12,7 @@ const HomeSection = () => {
             style={{ backgroundImage: 'url("/images/bg.svg")', fontFamily: 'Marcellus, serif' }}
 
         >
-            <div className="z-10 w-full">
+            <div className="z-10 w-full -mt-10">
                 <Navbar />
             </div>
 

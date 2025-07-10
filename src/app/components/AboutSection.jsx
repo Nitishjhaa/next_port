@@ -50,15 +50,34 @@ export default function ImageZoomSection() {
     >
       <div
         ref={imageRef}
-        className="overflow-hidden bg-black shadow-xl "
+        className="overflow-hidden bg-black shadow-2xl rounded-xl"
         style={{
           position: 'absolute',
           zIndex: 10,
+          width: '340px',
+          height: '480px',
+          transform: 'rotateY(-14deg) rotateX(6deg) skewY(1deg)',
+          backgroundImage: 'url("https://zentry.com/export/images/home/intro/custom-home-intro-mobile@lg.webp")', // Replace with your actual path
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          boxShadow: '0 40px 60px rgba(0, 0, 0, 0.4)',
         }}
-      >
-      </div>
-      <div className='h-60 w-60 bg-red-400 absolute left-10'>
+      />
 
+      <div className='h-60 w-80 absolute left-10'>
+        <div>
+          placeholder
+        </div>
+      </div>
+      <div className='h-60 w-80 absolute right-10'>
+        <div>
+          placeholder
+        </div>
+      </div>
+      <div className='w-180 absolute bottom-4 left-105'>
+        <div>
+          placeholder
+        </div>
       </div>
     </section>
   )
