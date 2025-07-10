@@ -5,7 +5,6 @@ import PricingLottie from './components/Lottie'
 import Profile from '../assets/animation/profile.json'
 import GetYear from './components/GetYear'
 import HomeSection from './components/HomeSection'
-import Navbar from "./components/Navbar";
 import AboutSection from './components/AboutSection'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -17,15 +16,11 @@ export default function Home() {
 
   return (
     <div className=''>
-      <div className="z-10 w-full">
-        <Navbar />
-      </div>
-
-      <div className='mt-6'>
+      <div className=''>
         <HomeSection />
         <AboutSection />
       </div>
-      <div className='h-screen bg-black pt-60'>
+      <div className='h-screen bg-black '>
 
       </div>
 

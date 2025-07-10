@@ -16,9 +16,9 @@ export default function ImageZoomSection() {
         scrollTrigger: {
           trigger: containerRef.current,
           start: 'top start',
-          end: '+=10%',
+          end: '+=100%',
           scrub: true,
-          // pin: true,
+          pin: true,
         },
       })
 
@@ -26,14 +26,14 @@ export default function ImageZoomSection() {
         imageRef.current,
         {
           scale: 1,
-          width: '400px',
-          height: '400px',
+          width: '600px',
+          height: '600px',
           borderRadius: '30px',
         },
         {
           scale: 1.05,
-          width: '120vw',
-          height: '120vh',
+          width: '100vw',
+          height: '100vh',
           borderRadius: '0px',
           ease: 'power2.out',
         }
@@ -56,11 +56,9 @@ export default function ImageZoomSection() {
           zIndex: 10,
         }}
       >
-        <img
-          src="/images/drag.png"
-          alt="Zoom Image"
-          className="w-full h-full object-cover"
-        />
+      </div>
+      <div className='h-60 w-60 bg-red-400 absolute left-10'>
+
       </div>
     </section>
   )

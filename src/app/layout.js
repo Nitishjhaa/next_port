@@ -24,7 +24,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#ebebeb] selection:bg-[#CCFF00]`}
-        style={{ backgroundImage: 'url("/images/bg.svg")', fontFamily: 'Marcellus, serif' }}
       >
         {children}
       </body>
