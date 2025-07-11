@@ -57,7 +57,7 @@ export default function ImageZoomSection() {
           width: '340px',
           height: '480px',
           transform: 'rotateY(-14deg) rotateX(6deg) skewY(1deg)',
-          backgroundImage: 'url("https://zentry.com/export/images/home/intro/custom-home-intro-mobile@lg.webp")', // Replace with your actual path
+          backgroundImage: 'url("https://images.pexels.com/photos/614117/pexels-photo-614117.jpeg?_gl=1*1r47bff*_ga*MjcwOTUyOTUxLjE3NDI2MjY1MDQ.*_ga_8JE65Q40S6*czE3NTIyNTAxMzgkbzIwJGcxJHQxNzUyMjUwNDc3JGozMSRsMCRoMA..")', // Replace with your actual path
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           boxShadow: '0 40px 60px rgba(0, 0, 0, 0.4)',
