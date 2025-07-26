@@ -2,7 +2,7 @@ import React from 'react'
 
 const ServiceSection = () => {
   return (
-    <div className='bg-red-400 h-screen'>
+    <div className='bg-[#808080] h-screen'>
       
     </div>
   )
