@@ -1,5 +1,5 @@
 {
-  "name": "next_port",
+  "name": "next_job_seekingort",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "framer-motion": "^12.18.1",
     "gsap": "^3.13.0",
-    "lottie-react": "^2.4.1",
-    "next": "15.3.3",
+    "motion": "^12.23.6",
+    "next": "15.3.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0"
@@ -21,7 +20,7 @@
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
-    "eslint-config-next": "15.3.3",
+    "eslint-config-next": "15.3.5",
     "tailwindcss": "^4"
   }
 }

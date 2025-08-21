@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Portfolio I Nitish Jha",
-  description: "Created By Nitish Jha",
+  title: "Nitish | Portfolio",
+  description: "This is my portfolio made on next and it is mainly focused so the recuiter can visually see all the important stuff quickly",
   icons: {
     icon: '/favicon.ico',
   },
@@ -23,8 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#ebebeb] selection:bg-[#CCFF00]`}
-      >
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
