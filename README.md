@@ -3,7 +3,7 @@
 Welcome to my personal portfolio!  
 This project showcases my skills, projects, and experiences as a **MERN Stack Developer**.  
 
-🔗 **Live Demo:** [View Portfolio](https://nitishjhaa.github.io/nitish-portfolio/)  
+🔗 **Live Demo:** [View Portfolio](https://nitishportfolio-phi.vercel.app/)  
 
 ---
 
@@ -25,7 +25,3 @@ This project showcases my skills, projects, and experiences as a **MERN Stack De
 
 ## 🚀 Getting Started
 
-Clone the repo:
-```bash
-git clone https://github.com/nitishjhaa/nitish-portfolio.git
-cd nitish-portfolio

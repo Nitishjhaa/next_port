@@ -39,11 +39,11 @@ export default function Home() {
             <div>
               <h1 className="text-4xl font-bold mt-5">Nitish Kumar Jha</h1>
               <h6 className={`text-xl ${isFocused ? '' : 'text-[#9CA3AF]'}  mt-3`}>Full Stack Web Developer</h6>
-              <h4 className={`text-xl mt-3 flex gap-3 items-center text-[#9CA3AF] ${isFocused ?  'opacity-0' : '' }`}>
+              <h4 className={`text-xl mt-3 flex gap-3 items-center text-[#9CA3AF] ${isFocused ? 'opacity-0' : ''}`}>
                 <FaMapLocationDot size={30} />Delhi, India
                 <span className="text-sm mt-1 -ml-1">IN</span>
               </h4>
-              <p className={`text-gray-300 text-md mt-4 ${isFocused ?  'opacity-0' : '' }`}>Building Real Products For Real Clients, Not Just More Projects</p>
+              <p className={`text-gray-300 text-md mt-4 ${isFocused ? 'opacity-0' : ''}`}>Building Real Products For Real Clients, Not Just More Projects</p>
               <div className="mt-4 flex items-center gap-6">
                 <button
                   onClick={() => {
@@ -61,19 +61,28 @@ export default function Home() {
                   </div>
                   Download CV
                 </button>
-                <div className={`flex gap-5 ${isFocused ?  'opacity-0' : '' }`}>
-                  <a href="" target="_blank">
+                <div className={`flex gap-5 ${isFocused ? 'opacity-0' : ''}`}>
+                  <a href="https://github.com/Nitishjhaa" target="_blank">
                     <FiGithub size={25} color="#9CA3AF" className="rotate-0 hover:rotate-15 duration-300" />
                   </a>
-                  <a href="" target="_blank">
+                  <a href="https://www.linkedin.com/in/nitish-jhaa/" target="_blank">
                     <AiOutlineLinkedin size={25} color="#9CA3AF" className="rotate-0 hover:rotate-15 duration-300" />
                   </a>
                   <a href="" target="_blank">
                     <FaInstagram size={25} color="#9CA3AF" className="rotate-0 hover:rotate-15 duration-300" />
                   </a>
-                  <a href="" target="_blank">
-                    <FaWhatsapp size={25} color="#9CA3AF" className="rotate-0 hover:rotate-15 duration-300" />
+                  <a
+                    href="https://wa.me/919810135752"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaWhatsapp
+                      size={25}
+                      color="#9CA3AF"
+                      className="rotate-0 hover:rotate-15 duration-300"
+                    />
                   </a>
+
                 </div>
               </div>
             </div>
