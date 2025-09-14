@@ -33,8 +33,8 @@ const Projects = () => {
         {
             img: "/images/ivory.png",
             name: "Ivory Interiors",
-            liveUrl: "https://www.shabadinteriors.com/",
-            techUsed: ["React", "Framer Motion", "Tailwind", "GSAP","Postgrsql"],
+            liveUrl: "http://ivorydesignstudios.info/",
+            techUsed: ["React", "Framer Motion", "Tailwind", "GSAP",],
             heighLight: [
                 "Built interactive and animated pages using Framer Motion and GSAP, bringing modern motion design to life.",
                 "The biggest challenge was synchronizing GSAP scroll animations with component-based React structure while maintaining performance.",

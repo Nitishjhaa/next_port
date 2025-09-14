@@ -9,7 +9,7 @@ const About = ({ isFocused }) => {
             <div className="text-white text-md max-md:text-sm leading-relaxed max-w-3xl mt-5">
                 <p>
                     <span>
-                        A 25-year-old full stack developer from Delhi, India with over 2 years of hands-on experience.
+                        A full stack developer from Delhi, India with over 2 years of hands-on experience.
                     </span>
 
                     <span className={`${isFocused ? "opacity-0" : ""}`}>

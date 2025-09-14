@@ -30,7 +30,7 @@ export default function SkillsSection() {
 
     return (
         <div className="my-10">
-            <h2 className="text-5xl font-bold mb-6 text-gray-100 montez">Skills</h2>
+            <h2 className="text-5xl font-bold mb-6 text-gray-100 montez">Technology</h2>
 
             {/* Languages */}
             <div className="mb-4 ">
