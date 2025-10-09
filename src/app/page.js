@@ -32,7 +32,7 @@ export default function Home() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="w-[45vw] max-md:w-[100vw] h-screen fixed max-md:relative top-0 left-0"
         >
-          <div className="h-screen w-[60%] mx-auto max-md:w-[80%]">
+          <div className="h-screen w-[60%] mx-auto max-md:w-[90%]">
             <div className="border mt-10 w-35 h-35 rounded-full overflow-hidden">
               <img src="/images/pic.png" className="scale-125 ml-2" alt="nitish_img" />
             </div>
