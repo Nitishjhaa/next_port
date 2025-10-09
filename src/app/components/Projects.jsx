@@ -12,7 +12,7 @@ const Projects = () => {
             img: "/images/igl.png",
             name: "IGL Lab",
             liveUrl: "https://igllab.in/",
-            techUsed: ["HTML", "CSS", "JavaScript", "GSAP"],
+            techUsed: ["Html", "Css", "JavaScript", "Bootstrap", "Gsap"],
             heighLight: [
                 "Developed a full static website from scratch using plain HTML, CSS, and JavaScript with GSAP for smooth scroll animations.",
                 "The main focus was on performance and loading speed, achieved by carefully managing animations and minimizing asset sizes.",
@@ -34,13 +34,69 @@ const Projects = () => {
             img: "/images/ivory.png",
             name: "Ivory Interiors",
             liveUrl: "http://ivorydesignstudios.info/",
-            techUsed: ["React", "Framer Motion", "Tailwind", "GSAP",],
+            techUsed: ["React", "Framer Motion", "Tailwind", "GSAP"],
             heighLight: [
                 "Built interactive and animated pages using Framer Motion and GSAP, bringing modern motion design to life.",
                 "The biggest challenge was synchronizing GSAP scroll animations with component-based React structure while maintaining performance.",
                 "Worked on advanced image layering and transitions that elevated the user experience and impressed the client visually.",
             ]
         },
+        {
+            img: "/images/grace.png",
+            name: "Grace Chairs",
+            liveUrl: "https://www.gracechairs.com/",
+            techUsed: ["Html", "Css", "JavaScript", "Bootstrap", "Gsap"],
+            heighLight: [
+                "Designed and developed a luxury furniture brand website focusing on premium product presentation and smooth browsing flow.",
+                "Integrated GSAP animations for elegant section reveals, giving a handcrafted and modern feel that aligns with the brand’s high-end furniture identity.",
+                "Focused on responsive layouts, ensuring the same aesthetic consistency on mobile and large screens with precise element positioning."
+            ]
+        },
+        {
+            img: "/images/llp.png",
+            name: "SecureBooks LLP",
+            liveUrl: "https://securebooksllp.com/",
+            techUsed: ["Html", "Css", "JavaScript", "Bootstrap", "Gsap"],
+            heighLight: [
+                "Built a corporate site for a finance and accounting consultancy, emphasizing trust, professionalism, and clarity.",
+                "Structured information-heavy content cleanly using modular Bootstrap grids and animated entrances for better readability.",
+                "Added GSAP-based subtle transitions and icons to convey a polished, tech-savvy image while maintaining fast performance."
+            ]
+        },
+        {
+            img: "/images/odpl.png",
+            name: "ODPL",
+            liveUrl: "https://odpl.net.in/",
+            techUsed: ["Html", "Css", "JavaScript", "Bootstrap", "Gsap"],
+            heighLight: [
+                "Created a robust industrial and logistics company website with a strong, corporate aesthetic.",
+                "Used GSAP animations for loading sequences and content slides, providing an engaging yet professional visual experience.",
+                "Focused on structuring data-heavy pages to look organized and easy to navigate, ensuring clarity for potential clients."
+            ]
+        },
+        {
+            img: "/images/tarun.png",
+            name: "Tarun Gaur",
+            liveUrl: "https://tarungaur.in/",
+            techUsed: ["Html", "Css", "JavaScript", "Bootstrap", "Gsap"],
+            heighLight: [
+                "Designed a personal brand website for a political and social leader, blending authority with approachability.",
+                "Implemented GSAP-based entry animations to highlight achievements, events, and media coverage dynamically.",
+                "Optimized for both desktop and mobile audiences, ensuring fast load times despite image-rich sections."
+            ]
+        },
+        {
+            img: "/images/mavrik.png",
+            name: "Little Mavericks",
+            liveUrl: "https://littlemavericks.in/",
+            techUsed: ["Html", "Css", "JavaScript", "Bootstrap", "Gsap"],
+            heighLight: [
+                "Developed a vibrant and playful website for a preschool brand to reflect its joyful learning environment.",
+                "Integrated fun scroll-based animations and color transitions using GSAP to capture kids’ energy and creativity.",
+                "Carefully balanced visuals and performance, ensuring smooth animations even on low-end mobile devices."
+            ]
+        }
+
 
     ]
 

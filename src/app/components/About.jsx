@@ -32,23 +32,8 @@ const About = ({ isFocused }) => {
                     <span>
                         Over the past two years, I’ve worked on diverse domains including SaaS platforms, CRM dashboards, content management systems, and more — delivering both speed and reliability.
                     </span>
-
                 </p>
-
-                <p className='mt-5'>
-                    <span className={`${isFocused ? "opacity-0" : ""}`}>
-                        Beyond tech, I draw inspiration from the cosmos. Vedic astrology and astronomical exploration aren't just hobbies — they ground my curiosity and sharpen my pattern recognition. In my quieter hours,
-                    </span>
-                    <span>
-                        I enjoy decoding ancient systems, studying planetary movements, and appreciating the harmony between logic and the mystical.
-                    </span>
-
-                </p>
-
-
             </div>
-
-
         </div>
     )
 }
