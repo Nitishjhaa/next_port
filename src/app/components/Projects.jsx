@@ -103,7 +103,7 @@ const Projects = () => {
             techUsed: ["Html", "Css", "JavaScript", "Bootstrap", "Gsap"],
             heighLight: [
                 "Developed a premium bakery website that beautifully captures the warmth and craftsmanship of a local baking brand.",
-                "Implemented smooth Framer Motion transitions and GSAP-inspired scroll effects to create an inviting, dynamic browsing experience.",
+                "Implemented smooth transitions and GSAP-inspired scroll effects to create an inviting, dynamic browsing experience.",
                 "Optimized for speed, responsiveness, and SEO, ensuring seamless performance across all devices and improved local search visibility."
             ]
         }
@@ -159,7 +159,9 @@ const Projects = () => {
                         {clientProject.map((projects, i) => (
                             <div key={i} className='border-l-2 border-gray-400 flex max-md:flex-col pl-10 relative mb-10 h-fit'>
                                 <div className='w-1/2  max-md:w-full'>
-                                    <img src={projects.img} alt="" className='object-fit rounded-2xl' />
+                                    <a href={projects.liveUrl} target='_blank'>
+                                        <img src={projects.img} alt="" className='object-fit rounded-2xl' />
+                                    </a>
                                 </div>
 
                                 <div className='w-1/2 pl-5 pt-5 max-md:w-full pr-5'>
@@ -196,8 +198,10 @@ const Projects = () => {
                         <div className=' py-5 h-fit'>
                             {personalProject.map((projects, i) => (
                                 <div key={i} className='border-l-2 border-gray-400 flex max-md:flex-col pl-10 relative mb-10 h-fit'>
-                                    <div className='w-1/2  max-md:w-full'>
-                                        <img src={projects.img} alt="" className='object-fit rounded-2xl' />
+                                    <div className='w-1/2 max-md:w-full cursor-pointer'>
+                                        <a href={projects.liveUrl} target='_blank'>
+                                            <img src={projects.img} alt="" className='object-fit rounded-2xl' />
+                                        </a>
                                     </div>
 
                                     <div className='w-1/2 pl-5 pt-5 max-md:w-full pr-5'>
