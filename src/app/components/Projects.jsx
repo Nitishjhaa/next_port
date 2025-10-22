@@ -95,9 +95,18 @@ const Projects = () => {
                 "Integrated fun scroll-based animations and color transitions using GSAP to capture kids’ energy and creativity.",
                 "Carefully balanced visuals and performance, ensuring smooth animations even on low-end mobile devices."
             ]
+        },
+        {
+            img: "/images/evercrust.png",
+            name: "Evercrust Bakes and More",
+            liveUrl: "https://evercrustbakes.com/",
+            techUsed: ["Html", "Css", "JavaScript", "Bootstrap", "Gsap"],
+            heighLight: [
+                "Developed a premium bakery website that beautifully captures the warmth and craftsmanship of a local baking brand.",
+                "Implemented smooth Framer Motion transitions and GSAP-inspired scroll effects to create an inviting, dynamic browsing experience.",
+                "Optimized for speed, responsiveness, and SEO, ensuring seamless performance across all devices and improved local search visibility."
+            ]
         }
-
-
     ]
 
 
