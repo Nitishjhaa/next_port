@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = ({ isFocused }) => {
     return (
-        <div className='w-full h-full my-10 max-md:-mt-70'>
+        <div className='w-full h-full my-10 max-md:-mt-100'>
             <h1 className='text-5xl font-bold montez inline-block'>
                 About Me
             </h1>

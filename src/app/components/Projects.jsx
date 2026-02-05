@@ -30,7 +30,7 @@ const Projects = () => {
                 <div className='h-full'>
                     <div className=' py-5 h-fit'>
                         {clientProject.map((projects, i) => (
-                            <div key={i} className='border-l-2 border-gray-400 flex max-md:flex-col pl-10 relative mb-10 h-fit'>
+                            <div key={i} className='border-l-2 border-gray-400 flex max-md:flex-col pl-10 relative mb-20 h-fit'>
                                 <div className='w-1/2  max-md:w-full'>
                                     <a href={projects.liveUrl} target='_blank'>
                                         <img src={projects.img} alt="" className='object-fit rounded-2xl' />
@@ -54,7 +54,7 @@ const Projects = () => {
                                             </div>
                                         ))}
                                     </div>
-                                    <div className='absolute left-10 bottom-5 max-md:-bottom-1'>
+                                    <div className='absolute left-10 bottom-5 max-md:-bottom-3'>
                                         <a href={projects.liveUrl} className='px-5 py-4 border mb-5 rounded-xl' target='_blank'>
                                             Visit Website
                                         </a>
@@ -70,7 +70,7 @@ const Projects = () => {
                     <div className='h-full'>
                         <div className=' py-5 h-fit'>
                             {personalProject.map((projects, i) => (
-                                <div key={i} className='border-l-2 border-gray-400 flex max-md:flex-col pl-10 relative mb-10 h-fit'>
+                                <div key={i} className='border-l-2 border-gray-400 flex max-md:flex-col pl-10 relative mb-20 h-fit'>
                                     <div className='w-1/2 max-md:w-full cursor-pointer'>
                                         <a href={projects.liveUrl} target='_blank'>
                                             <img src={projects.img} alt="" className='object-fit rounded-2xl' />
