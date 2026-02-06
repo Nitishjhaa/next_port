@@ -55,7 +55,7 @@ const Projects = () => {
                                         ))}
                                     </div>
                                     <div className='absolute left-10 bottom-5 max-md:-bottom-3'>
-                                        <a href={projects.liveUrl} className='px-5 py-4 border mb-5 rounded-xl' target='_blank'>
+                                        <a href={projects.liveUrl} className='px-5 py-3 border mb-5 rounded-xl' target='_blank'>
                                             Visit Website
                                         </a>
                                     </div>
@@ -95,7 +95,7 @@ const Projects = () => {
                                             ))}
                                         </div>
                                         <div className='absolute left-10 bottom-5 max-md:-bottom-5'>
-                                            <a href={projects.liveUrl} className='px-5 py-4 border mb-5 rounded-xl' target='_blank'>
+                                            <a href={projects.liveUrl} className='px-5 py-3 border mb-5 rounded-xl' target='_blank'>
                                                 Visit Website
                                             </a>
                                         </div>
