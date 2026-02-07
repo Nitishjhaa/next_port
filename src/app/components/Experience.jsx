@@ -15,7 +15,7 @@ const Experience = () => {
       icon: "/images/codesparrow.png",
       companyName: "Code Sparrow",
       place: "Delhi, Janakpuri West",
-      period: "(6 Months)",
+      period: "(1 Year)",
       work: [
         "Developed dynamic full-stack web applications using React.js and Node.js.",
         "Built custom APIs and integrated MongoDB for scalable data handling.",
