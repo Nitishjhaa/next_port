@@ -76,7 +76,7 @@ const Experience = () => {
                   <div className="text-3xl font-semibold">{experience.companyName}</div>
                   <div className="text-gray-400">{experience.place}</div>
                   <div className="text-gray-400 inline-block pr-5">{experience.years}</div>
-                  <span className="text-gray-400">{experience.period}</span>
+                  <span className="text-gray-400 text-xs">{experience.period}</span>
                 </div>
               </div>
               <div className="text-lg font-bold text-gray-300">{experience.role}</div>
