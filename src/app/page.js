@@ -25,7 +25,6 @@ export default function Home() {
     <>
       <div className="flex relative max-md:flex-col">
         <Focus isFocused={isFocused} setIsFocused={setIsFocused} />
-        {/* LEFT SIDEBAR */}
         <motion.div
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -88,8 +87,6 @@ export default function Home() {
             </div>
           </div>
         </motion.div>
-
-        {/* RIGHT SECTION (SCROLL) */}
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
